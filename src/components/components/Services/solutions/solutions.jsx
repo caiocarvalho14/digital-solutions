@@ -2,7 +2,7 @@ import './solutions.css'
 import SolutionCard from './solutionCard';
 export default function Solutions() {
     return (
-        <div className="row container justify-content-center h-100 justify-content-sm-start g-4" style={{ overflowX: 'auto', padding: '25px 0', flexWrap: 'nowrap' }}> {/* g-4 dá o espaçamento entre as colunas */}
+        <div className="row container justify-content-start h-100 justify-content-sm-center g-4" style={{ overflowX: 'auto', padding: '25px 0', flexWrap: 'nowrap' }}> {/* g-4 dá o espaçamento entre as colunas */}
 
             <div className=" col-md-6  col-lg-4 d-flex justify-content-center">
                 <SolutionCard 

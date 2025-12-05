@@ -1,14 +1,14 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Importação do CSS do Bootstrap
+import './style.css'
 
 const Footer = () => {
   return (
-    <footer className="bg-white py-5">
+    <footer className="py-5 border-top border-secondary">
       <div className="container">
         <div className="row">
           {/* Coluna 1: Branding e Descrição */}
           <div className="col-lg-5 col-md-12 mb-4 mb-lg-0">
-            <h5 className="fw-bold mb-3 text-dark">
+            <h5 className="fw-bold mb-3 text-light">
               <img src="favicon.svg" alt="" className='me-2' />Caio Carvalho
             </h5>
             <p className="text-secondary pe-lg-5">
@@ -18,7 +18,7 @@ const Footer = () => {
 
           {/* Coluna 2: Navegação */}
           <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h6 className="fw-bold mb-3 text-dark">Navegação</h6>
+            <h6 className="fw-bold mb-3 text-light">Navegação</h6>
             <ul className="list-unstyled">
               <li className="mb-2">
                 <a href="#servicos" className="text-decoration-none text-secondary hover-primary">
@@ -40,7 +40,7 @@ const Footer = () => {
 
           {/* Coluna 3: Conecte-se (Ícones) */}
           <div className="col-lg-4 col-md-6">
-            <h6 className="fw-bold mb-3 text-dark">Conecte-se</h6>
+            <h6 className="fw-bold mb-3 text-light">Conecte-se</h6>
             <div className="d-flex gap-2">
               {/* Botão Github/Git */}
               <a href="https://github.com/caiocarvalho14" target='_blank' className="d-flex align-items-center justify-content-center bg-light text-dark rounded p-2 text-decoration-none" style={{ width: '40px', height: '40px' }}>

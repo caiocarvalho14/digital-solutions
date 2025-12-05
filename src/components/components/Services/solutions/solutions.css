@@ -1,0 +1,51 @@
+.solutions {
+    color: white;
+
+    h1 {
+        color: white;
+        font-weight: bold;
+    }
+
+    h5 {
+        max-width: 70%;
+        color: rgba(255, 255, 255, 0.829);
+        padding-bottom: 2rem;
+    }
+
+    hr {
+        margin: 20px 0 40px 0;
+        height: 2px;
+        background-color: #bdd7ff;
+    }
+
+    div.b1 {
+        display: flex;
+        justify-content: center;
+
+        a {
+            box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.466);
+            text-align: center;
+            color: white;
+            margin-top: 5rem;
+            width: 100%;
+            @media screen and (min-width: 710px) {
+                width: 45%;
+            }
+
+            background-color: #669ef810;
+            border-radius: 1rem;
+            padding: 0.4rem;
+            border: none;
+            outline: #bdd7ff63 solid 1px;
+        }
+
+        a:hover {
+            background-color: #88b4fc1e;
+        }
+    }
+}
+
+.solutions-container {
+    padding: 80px 0;
+    background: linear-gradient(45deg, var(--dark-blue), #000000);
+}

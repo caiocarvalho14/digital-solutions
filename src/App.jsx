@@ -3,14 +3,21 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+// components
+import Hero from './components/components/hero/hero'
+import Services from './components/components/Services/Services'
+import Projects from './components/components/projects/projects'
+// ui
+import Transition from './components/ui/transition/transition'
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>Caio Carvalho</h1>
-      <h2>Digital Solutions</h2>
-      <a href="https://caiocarvalho.dev.br" target='_blank'>www.caiocarvalho.dev.br</a>
+      <Hero/>
+      <Transition/>
+      <Services/>
+      <Projects/>
     </>
   )
 }

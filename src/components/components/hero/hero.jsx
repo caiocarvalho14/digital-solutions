@@ -13,7 +13,7 @@ export default function Hero() {
                 <a href="https://caiocarvalho.dev.br" target="_blank" className="btn text-dark-emphasis fs-9">www.caiocarvalho.dev.br</a>
             </div>
             <div className="d-flex flex-column flex-sm-row gap-4">
-                <a href="#" className="btn btn-primary">
+                <a href="#contato" className="btn btn-primary">
                     Quero uma Solução <i className="bi bi-arrow-right"></i>
                 </a>
                 <a href="#projetos" className="btn btn-light">

@@ -1,0 +1,15 @@
+.contato {
+    background-color: var(--azul-escuro);
+}
+
+.contato-container {
+    max-width: 800px;
+    background-color: white;
+}
+
+.contato-container {
+    a {
+        max-width: 250px;
+        width: 100%;
+    }
+}

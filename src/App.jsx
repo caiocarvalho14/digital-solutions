@@ -7,6 +7,8 @@ import './App.css'
 import Hero from './components/components/hero/hero'
 import Services from './components/components/Services/Services'
 import Projects from './components/components/projects/projects'
+import Contato from './components/components/contato/contato'
+import Footer from './components/components/footer/footer'
 // ui
 import Transition from './components/ui/transition/transition'
 
@@ -18,6 +20,8 @@ function App() {
       <Transition/>
       <Services/>
       <Projects/>
+      <Contato/>
+      <Footer/>
     </>
   )
 }

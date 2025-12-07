@@ -16,16 +16,16 @@ export default function Hero() {
                     personalizadas que geram resultados reais para o seu negócio.</h1>
                 <a href="https://www.instagram.com/caiosolutions.dev/" target="_blank" className="btn text-dark-emphasis fs-9">@caiosolutions.dev <i className="bi bi-instagram"></i></a>
             </div>
-            <div className="d-flex flex-column flex-sm-row gap-4">
-                <a href="#contato" className="btn btn-primary">
-                    Quero uma Solução <i className="bi bi-arrow-right"></i>
-                </a>
-                <a href="#projetos" className="btn btn-light">
+            <div className="d-flex flex-column flex-sm-row gap-3">
+                <a href="#projetos" className="btn btn-primary">
                     Ver Projetos
                 </a>
-            </div>
-            <div>
-
+                <a href="https://wa.me/86995633313" target="_blank" className="btn btn-primary">
+                    WhatsApp <i className="bi bi-whatsapp"></i>
+                </a>
+                <a href="#contato" className="btn btn-light">
+                    Quero uma Solução <i className="bi bi-arrow-right"></i>
+                </a>
             </div>
         </div>
     )

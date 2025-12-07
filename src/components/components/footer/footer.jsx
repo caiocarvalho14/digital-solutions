@@ -21,6 +21,11 @@ const Footer = () => {
             <h6 className="fw-bold mb-3 text-light">Navegação</h6>
             <ul className="list-unstyled">
               <li className="mb-2">
+                <a href="#" className="text-decoration-none text-secondary hover-primary">
+                  Início
+                </a>
+              </li>
+              <li className="mb-2">
                 <a href="#servicos" className="text-decoration-none text-secondary hover-primary">
                   Serviços
                 </a>
@@ -42,11 +47,16 @@ const Footer = () => {
           <div className="col-lg-4 col-md-6">
             <h6 className="fw-bold mb-3 text-light">Conecte-se</h6>
             <div className="d-flex gap-2">
+
+              <a href="https://www.instagram.com/caiosolutions.dev/" title='@caiosolutions.dev' className="d-flex align-items-center justify-content-center bg-light text-dark rounded p-2 text-decoration-none" style={{ width: '40px', height: '40px' }}>
+                <i className="bi bi-instagram"></i>
+              </a>
+
               {/* Botão Github/Git */}
               <a href="https://github.com/caiocarvalho14" target='_blank' className="d-flex align-items-center justify-content-center bg-light text-dark rounded p-2 text-decoration-none" style={{ width: '40px', height: '40px' }}>
                 <i className='bi bi-github'></i>
               </a>
-              
+
               {/* Botão LinkedIn */}
               <a href="https://www.linkedin.com/in/caio-carvalho-326269358/" target='_blank' className="d-flex align-items-center justify-content-center bg-light text-dark rounded p-2 text-decoration-none" style={{ width: '40px', height: '40px' }}>
                 <i className="bi bi-linkedin"></i>

@@ -4,6 +4,26 @@ const ProjetosContainer = () => {
     // Dados simulados para manter o código limpo e organizado
     const projects = [
         {
+            id: 0,
+            category: "Website Institucional",
+            title: "Monteiro & Associados | Advocacia Empresarial",
+            description: "Website institucional desenvolvido para escritório de advocacia especializado em Direito Empresarial, com foco na proteção patrimonial e segurança jurídica de empresas e executivos.",
+            tags: [
+                "Website Institucional",
+                "UX/UI Design",
+                "Branding Jurídico",
+                "Direito Empresarial",
+                "Conversão",
+            ],
+            headerStyle: {
+                background: "linear-gradient(135deg, #0f2a44 0%, #0b1f33 100%)",
+                color: "#ffffff"
+            },
+            link: "https://monteiroassociados.vercel.app",
+            iconColor: "text-white",
+            image: "monteiroassociados.png"
+        },
+        {
             id: 1,
             category: "Website",
             title: "Gerenciador de Contas Financeiras",
@@ -14,7 +34,7 @@ const ProjetosContainer = () => {
                 background: "linear-gradient(135deg, #343a40 0%, #212529 100%)",
                 color: "#fff"
             },
-            link:'https://contasapagar.caiocarvalho.dev.br/',
+            link: 'https://contasapagar.caiocarvalho.dev.br/',
             iconColor: "text-white",
             image: 'scap.png'
         },
@@ -29,7 +49,7 @@ const ProjetosContainer = () => {
                 background: "linear-gradient(135deg, #343a40 0%, #212529 100%)",
                 color: "#fff"
             },
-            link:'https://mercantil-nicolau.vercel.app/',
+            link: 'https://mercantil-nicolau.vercel.app/',
             iconColor: "text-white",
             image: 'landingpage.png'
         },
@@ -44,7 +64,7 @@ const ProjetosContainer = () => {
                 background: "linear-gradient(135deg, #343a40 0%, #212529 100%)",
                 color: "#fff"
             },
-            link:'https://caiocarvalho.dev.br/',
+            link: 'https://caiocarvalho.dev.br/',
             iconColor: "text-white",
             image: 'portfolio.png'
         },
@@ -59,7 +79,7 @@ const ProjetosContainer = () => {
                 background: "linear-gradient(135deg, #343a40 0%, #212529 100%)",
                 color: "#fff"
             },
-            link:'https://isasolucoesdigitais.vercel.app/',
+            link: 'https://isasolucoesdigitais.vercel.app/',
             iconColor: "text-white",
             image: 'linkinbio.png'
         }
@@ -73,7 +93,7 @@ const ProjetosContainer = () => {
                         <div className="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
 
                             {/* Área Superior (Imagem/Preview) */}
-                            <a href={project.link} target='_blank' className="project-thumb position-relative" style={{ backgroundImage: `url(${project.image})`, backgroundOrigin:'start' }}>
+                            <a href={project.link} target='_blank' className="project-thumb position-relative" style={{ backgroundImage: `url(${project.image})`, backgroundOrigin: 'start' }}>
 
                                 {/* Overlay que aplica o blur SOMENTE no fundo */}
                                 <div className="project-thumb-blur"></div>

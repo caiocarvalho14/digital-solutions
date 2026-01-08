@@ -65,6 +65,25 @@ const ProjetosContainer = () => {
             image: "rosaeperola.png"
         },
         {
+            id: 0,
+            category: "Landing Page",
+            title: "Mariana Costa Fotografia | Capturando Momentos Inesquecíveis",
+            description: "Landing page desenvolvida para fotógrafa profissional especializada em registrar momentos únicos e emocionais, com foco em conexão humana, estética visual refinada e conversão de visitantes em contatos qualificados para ensaios e eventos.",
+            tags: [
+                "Fotografia Profissional",
+                "Branding Pessoal",
+                "UX/UI Design",
+                "Portfólio Visual"
+            ],
+            headerStyle: {
+                background: "linear-gradient(135deg, #0f2a44 0%, #0b1f33 100%)",
+                color: "#ffffff"
+            },
+            link: "https://marianacostafotografias.vercel.app",
+            iconColor: "text-white",
+            image: "marianacosta.png"
+        },
+        {
             id: 2,
             category: "Landing Page",
             title: "Mercantil Nicolau",

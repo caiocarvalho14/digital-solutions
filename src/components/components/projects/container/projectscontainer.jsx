@@ -24,6 +24,27 @@ const ProjetosContainer = () => {
             image: "monteiroassociados.png"
         },
         {
+            id: 0,
+            category: "Website Institucional",
+            title: "EngeCivil | Engenharia Civil & Projetos",
+            description: "Website institucional desenvolvido para empresa de engenharia civil especializada em projetos, obras e consultoria técnica, com foco em excelência técnica, conformidade normativa, gestão eficiente de prazos e custos, e geração de oportunidades comerciais.",
+            tags: [
+                "Website Institucional",
+                "Engenharia Civil",
+                "Projetos de Engenharia",
+                "UX/UI Profissional",
+                "Conversão",
+                "Credibilidade Técnica"
+            ],
+            headerStyle: {
+                background: "linear-gradient(135deg, #0f2a44 0%, #0b1f33 100%)",
+                color: "#ffffff"
+            },
+            link: "https://engecivil.vercel.app",
+            iconColor: "text-white",
+            image: "engecivil.png"
+        },
+        {
             id: 1,
             category: "Website",
             title: "Gerenciador de Contas Financeiras",

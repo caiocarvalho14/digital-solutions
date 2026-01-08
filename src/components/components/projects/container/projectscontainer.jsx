@@ -45,19 +45,24 @@ const ProjetosContainer = () => {
             image: "engecivil.png"
         },
         {
-            id: 1,
-            category: "Website",
-            title: "Gerenciador de Contas Financeiras",
-            description: "Plataforma completa para gestão financeira empresarial, permitindo controlar contas a pagar e a receber, automatizar processos e visualizar indicadores em tempo real. Desenvolvido com foco em segurança, escalabilidade e usabilidade para empresas de diferentes portes.",
-            tags: ["Python", "Django", "IA", "Render", "API's"],
-            // Gradiente escuro similar ao da imagem (Dark Blue/Grey)
+            id: 0,
+            category: "Landing Page",
+            title: "Rosa & Pérola | Moda e Acessórios",
+            description: "Landing Page institucional desenvolvida para marca de moda e acessórios femininos, com foco em elegância, identidade visual sofisticada e apresentação de produtos de forma clara e atrativa, fortalecendo a marca e estimulando o contato comercial.",
+            tags: [
+                "Landing Page",
+                "Moda e Acessórios",
+                "UX/UI Design",
+                "Branding",
+                "Conversão"
+            ],
             headerStyle: {
-                background: "linear-gradient(135deg, #343a40 0%, #212529 100%)",
-                color: "#fff"
+                background: "linear-gradient(135deg, #0f2a44 0%, #0b1f33 100%)",
+                color: "#ffffff"
             },
-            link: 'https://contasapagar.caiocarvalho.dev.br/',
+            link: "https://rosaeperola.vercel.app",
             iconColor: "text-white",
-            image: 'scap.png'
+            image: "rosaeperola.png"
         },
         {
             id: 2,
@@ -73,6 +78,21 @@ const ProjetosContainer = () => {
             link: 'https://mercantil-nicolau.vercel.app/',
             iconColor: "text-white",
             image: 'landingpage.png'
+        },
+        {
+            id: 1,
+            category: "Website",
+            title: "Gerenciador de Contas Financeiras",
+            description: "Plataforma completa para gestão financeira empresarial, permitindo controlar contas a pagar e a receber, automatizar processos e visualizar indicadores em tempo real. Desenvolvido com foco em segurança, escalabilidade e usabilidade para empresas de diferentes portes.",
+            tags: ["Python", "Django", "IA", "Render", "API's"],
+            // Gradiente escuro similar ao da imagem (Dark Blue/Grey)
+            headerStyle: {
+                background: "linear-gradient(135deg, #343a40 0%, #212529 100%)",
+                color: "#fff"
+            },
+            link: 'https://contasapagar.caiocarvalho.dev.br/',
+            iconColor: "text-white",
+            image: 'scap.png'
         },
         {
             id: 3,

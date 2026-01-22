@@ -130,6 +130,10 @@ export const ContactSection = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
+
+            <h3 className="text-xl font-bold text-foreground mb-6">
+              Envie uma Mensagem
+            </h3>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <Input
@@ -242,12 +246,6 @@ export const ContactSection = () => {
               </div>
             </div>
 
-            <div className="p-6 rounded-xl bg-gradient-to-br from-primary/10 to-accent/10 border border-primary/20">
-              <h4 className="font-semibold text-foreground mb-2">⚡ Resposta Rápida</h4>
-              <p className="text-sm text-muted-foreground">
-                Respondemos todas as mensagens em até 2 horas úteis. Para urgências, prefira o WhatsApp.
-              </p>
-            </div>
           </motion.div>
         </div>
       </div>

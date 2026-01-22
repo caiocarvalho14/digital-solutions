@@ -51,9 +51,9 @@ export const Header = () => {
               {link.label}
             </a>
           ))}
-          <Button asChild className="bg-accent hover:bg-accent/90 text-accent-foreground glow-accent">
-            <a href="#contato">Fale Conosco</a>
-          </Button>
+          <Button asChild className="bg-accent hover:bg-accent/90 text-accent-foreground w-full">
+              <a href="https://wa.me/5586995633313/" target="_blank" >Fale Conosco</a>
+            </Button>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -86,7 +86,7 @@ export const Header = () => {
               </a>
             ))}
             <Button asChild className="bg-accent hover:bg-accent/90 text-accent-foreground w-full">
-              <a href="#contato">Fale Conosco</a>
+              <a href="https://wa.me/5586995633313/" target="_blank" >Fale Conosco</a>
             </Button>
           </div>
         </motion.nav>

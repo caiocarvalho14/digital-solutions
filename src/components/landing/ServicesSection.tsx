@@ -7,8 +7,8 @@ const services = [
     icon: Globe,
     title: "Sites Modernos e Rápidos",
     description:
-      "Desenvolvemos websites responsivos, otimizados para SEO e com performance excepcional. Seu negócio com presença digital profissional que converte visitantes em clientes.",
-    features: ["Design Responsivo", "Otimização SEO", "Alta Performance", "Suporte Contínuo"],
+      "Desenvolvemos websites responsivos, otimizados para SEO (busca no google) e com performance excepcional. Seu negócio com presença digital profissional que converte visitantes em clientes.",
+    features: ["Design Responsivo", "Otimização SEO", "Alta Performance", "Chatbot Integrado"],
   },
   {
     icon: Zap,

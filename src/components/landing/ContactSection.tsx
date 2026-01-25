@@ -45,7 +45,7 @@ export const ContactSection = () => {
       const validatedData = contactSchema.parse(formData);
 
       // Envio real
-      const response = await fetch("https://formsubmit.co/k4io12345@gmail.com", {
+      const response = await fetch("https://formsubmit.co/caiosvcarvalho@gmail.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
@@ -223,7 +223,7 @@ export const ContactSection = () => {
                   </div>
                 </a>
                 <a
-                  href="mailto:k4io12345@gmail.com"
+                  href="mailto:caiosvcarvalho@gmail.com"
                   className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-primary transition-colors group"
                 >
                   <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
@@ -231,7 +231,7 @@ export const ContactSection = () => {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">Email</p>
-                    <p className="text-sm text-muted-foreground">k4io12345@gmail.com</p>
+                    <p className="text-sm text-muted-foreground">caiosvcarvalho@gmail.com</p>
                   </div>
                 </a>
                 <div className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border">

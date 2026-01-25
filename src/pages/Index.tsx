@@ -8,6 +8,7 @@ import { TestimonialsSection } from "@/components/landing/TestimonialsSection";
 import { ContactSection } from "@/components/landing/ContactSection";
 import { Footer } from "@/components/landing/Footer";
 import { WhatsAppButton } from "@/components/landing/WhatsAppButton";
+import { FaqSection } from "@/components/landing/Faq";
 
 const Index = () => {
   return (
@@ -19,6 +20,8 @@ const Index = () => {
         <AboutSection />
         <PortfolioSection />
         <TestimonialsSection />
+        <FaqSection />
+
         <ContactSection />
       </main>
       <Footer />

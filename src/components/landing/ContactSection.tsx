@@ -56,6 +56,7 @@ export const ContactSection = () => {
           email: validatedData.email,
           phone: validatedData.phone,
           message: validatedData.message,
+          _captcha: "false",
           _subject: "Novo contato pelo site",
           _template: "table"
         }).toString()
@@ -247,6 +248,7 @@ export const ContactSection = () => {
             </div>
 
           </motion.div>
+
         </div>
       </div>
     </section>

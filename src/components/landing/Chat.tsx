@@ -14,7 +14,7 @@ interface Message {
 // Simulate API delay
 const simulateApiCall = async (userMessage: string) => {
   
-    const response = await fetch("https://n8n.caiocarvalho.dev.br/webhook/876e2bee-431c-4907-8ce4-59eff551d4bb", {
+    const response = await fetch("https://n8n.caiocarvalho.dev.br/webhook/ea7cd41f-84f9-4790-a6ba-e6043ca35c74", {
         method: "POST",
         headers: {
         "Content-Type": "application/json",

@@ -9,6 +9,8 @@ import { ContactSection } from "@/components/landing/ContactSection";
 import { Footer } from "@/components/landing/Footer";
 import { WhatsAppButton } from "@/components/landing/WhatsAppButton";
 import { FaqSection } from "@/components/landing/Faq";
+import Chat  from "@/components/landing/Chat";
+
 
 const Index = () => {
   return (
@@ -25,6 +27,7 @@ const Index = () => {
         <ContactSection />
       </main>
       <Footer />
+      <Chat />
       <WhatsAppButton />
     </div>
   );

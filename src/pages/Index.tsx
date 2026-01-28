@@ -10,6 +10,7 @@ import { Footer } from "@/components/landing/Footer";
 import { WhatsAppButton } from "@/components/landing/WhatsAppButton";
 import { FaqSection } from "@/components/landing/Faq";
 import Chat  from "@/components/landing/Chat";
+import { PricingSection } from "@/components/landing/Pricing";
 
 
 const Index = () => {
@@ -20,6 +21,7 @@ const Index = () => {
         <HeroSection />
         <ServicesSection />
         <AboutSection />
+        <PricingSection />
         <PortfolioSection />
         <TestimonialsSection />
         <FaqSection />

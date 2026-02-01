@@ -86,7 +86,7 @@ const produtos: Produto[] = [
   {
     id: "automacao",
     nome: "Automação de Processos",
-    valor: null
+    valor: null,
     descricao: "Automatize tarefas repetitivas e integre sistemas para aumentar a produtividade.",
     prazo: "10-15 dias",
     recursos: [

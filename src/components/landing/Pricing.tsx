@@ -16,7 +16,7 @@ interface Adicional {
 interface Produto {
   id: string;
   nome: string;
-  valor: number;
+  valor: number | null;
   valorMensal?: number;
   descricao: string;
   prazo: string;
@@ -29,7 +29,7 @@ const produtos: Produto[] = [
   {
     id: "site-institucional",
     nome: "Site Institucional",
-    valor: 793,
+    valor: 493,
     descricao: "Site profissional para apresentar sua empresa, serviços e conquistar novos clientes.",
     prazo: "7-10 dias",
     recursos: [
@@ -42,7 +42,8 @@ const produtos: Produto[] = [
     adicionais: [
       {
         nome: "Blog integrado",
-        valor: 500,
+        valor: 300,
+        valorMensal: 50,
         prazo: "+3 dias",
         descricao: "Sistema de blog para publicar artigos e melhorar seu SEO.",
       },
@@ -54,7 +55,7 @@ const produtos: Produto[] = [
       },
       {
         nome: "Galeria de fotos",
-        valor: 120,
+        valor: 50,
         prazo: "+2 dias",
         descricao: "Galeria interativa com lightbox para exibir seus trabalhos.",
       },
@@ -63,7 +64,7 @@ const produtos: Produto[] = [
   {
     id: "landing-page",
     nome: "Landing Page",
-    valor: 599,
+    valor: 397,
     descricao: "Página de alta conversão focada em capturar leads e vender seu produto ou serviço.",
     prazo: "5-7 dias",
     destaque: true,
@@ -71,7 +72,6 @@ const produtos: Produto[] = [
       "Design focado em conversão",
       "Página única otimizada",
       "Formulário de captura",
-      "Integração WhatsApp",
       "Animações e efeitos",
     ],
     adicionais: [
@@ -86,8 +86,7 @@ const produtos: Produto[] = [
   {
     id: "automacao",
     nome: "Automação de Processos",
-    valor: 2000,
-    valorMensal: 300,
+    valor: null
     descricao: "Automatize tarefas repetitivas e integre sistemas para aumentar a produtividade.",
     prazo: "10-15 dias",
     recursos: [
@@ -187,8 +186,8 @@ const PricingCard = ({ produto }: { produto: Produto }) => {
           <div>
             <p className="text-xs text-muted-foreground mb-1">Implementação</p>
             <div className="flex items-baseline justify-center gap-1">
-              <span className="text-sm text-muted-foreground">R$</span>
-              <span className="text-4xl font-bold text-foreground">{valorTotal.toLocaleString("pt-BR")}</span>
+              <span className="text-sm text-muted-foreground">{ valorTotal ? "R$" : "" }</span>
+              <span className="text-3xl font-bold text-foreground">{ valorTotal ? valorTotal.toLocaleString("pt-BR") : 'A definir'}</span>
             </div>
           </div>
 
